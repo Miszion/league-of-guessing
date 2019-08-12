@@ -67,7 +67,7 @@ class App extends React.Component {
         <div className = "newHead">
           <div className = "scoreCounter">
             {"Score: " + this.state.score}
-            </div>
+          </div>
           <div className = "quoteContainer">
             <div className = "quote-loaded">{this.state.stateQuote}</div>
           </div>

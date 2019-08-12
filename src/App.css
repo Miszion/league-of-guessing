@@ -6,10 +6,18 @@
 
 .game-started {
   animation: fadeAway 1.5s forwards;
+  display: none;
+}
+
+.newHead {
+	height: 100%;
+	position: absolute;
+	width: 100%;
 }
 
 .replay {
   opacity: 0;
+  display: none;
 }
 
 .App-logo {
@@ -56,6 +64,9 @@
   justify-content: space-evenly;
   animation: fadeIn 2s forwards;
   opacity: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
 }
 
 
@@ -69,8 +80,7 @@
     animation: fadeIn 1s forwards;
     display: flex;
     justify-content: center;
-    margin-top: -15%;
-    margin-bottom: 10%;
+    margin-top: 5%;
 }
 
 .championImage:hover {
@@ -93,6 +103,12 @@
   font-family: 'Lexend Deca', sans-serif;
   animation: fadeIn 2s forwards;
   opacity: 0;
+}
+
+.guessBlock {
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 .endGameBlock {
