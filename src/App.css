@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.game-started {
+  animation: fadeAway 1.5s forwards;
+}
+
+.replay {
+  opacity: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.playButton {
+  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+  background-color: #172831;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.playText {
+  position: relative;
+  top: 25%;
+}
+
+@keyframes fadeAway {
+  from {
+    opacity: 1
+  }
+  to {
+    opacity: 0
+  }
+}
+
+.championImage img {
+  max-width: 300px;
+  max-height: 500px;
+  border: 10px solid #172831;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-evenly;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+}
+
+
+.quote-loaded {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 70px;
+}
+
+.quoteContainer {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    display: flex;
+    justify-content: center;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
+
+.championImage:hover {
+  opacity: .5;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.scoreCounter {
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  font-family: 'Lexend Deca', sans-serif;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+}
+
+.endGameBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gameOver {
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.scoreCounterEnd {
+  font-size: 25px;
+  font-family: 'Lexend Deca', sans-serif;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+  text-align: center;
+}
+
+.replayButton {
+  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+  background-color: #172831;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+}
+
+.replayText {
+  position: relative;
+  top: 25%;
+}
