@@ -57,6 +57,7 @@
   max-width: 300px;
   max-height: 500px;
   border: 10px solid #172831;
+  cursor: pointer;
 }
 
 .carousel {
@@ -67,6 +68,7 @@
   height: 100%;
   width: 100%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -107,8 +109,8 @@
 
 .guessBlock {
 	height: 100%;
-	width: 100%;
-	position: absolute;
+  width: 100%;
+  padding-top: 350px;
 }
 
 .endGameBlock {
@@ -142,6 +144,7 @@
   margin-top: 25px;
   animation: fadeIn 2s forwards;
   opacity: 0;
+  cursor: pointer;
 }
 
 .replayText {
